@@ -1,0 +1,15 @@
+{
+  "employees": [
+    {"name": "Steven", "company": "xpots"},
+    {"name": "Tristan", "company": "xpots"},
+    {"name": "Henk", "company": "waysis"},
+    {"name": "Jan", "company": "tmc"},
+    {"name": "Piet", "company": "unplugged"}
+  ],
+  "companies": [
+    {"name": "xpots"},
+    {"name": "waysis"},
+    {"name": "unplugged"},
+    {"name": "tmc"}
+  ]
+}

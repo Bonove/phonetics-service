@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: phonetics-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: starter
+    region: frankfurt
+    healthCheckPath: /health
+    envVars:
+      - key: API_KEY
+        sync: false
+      - key: PORT
+        value: "10000"
