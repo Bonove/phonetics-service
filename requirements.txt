@@ -4,3 +4,4 @@ phonemizer==3.3.0
 faiss-cpu==1.13.2
 numpy>=1.24,<2.0
 python-dotenv==1.1.0
+httpx>=0.27,<1.0
